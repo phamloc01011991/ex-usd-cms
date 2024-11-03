@@ -340,7 +340,7 @@ function changeDate(inputDateTime = "") {
   const dateObj = new Date(inputDateTime);
 
   // Cộng thêm 7 giờ
-  dateObj.setUTCHours(dateObj.getUTCHours() + 7);
+  dateObj.setUTCHours(dateObj.getUTCHours() + 8);
 
   // Lấy thông tin giờ, phút và giây
   const hours = dateObj.getUTCHours();
