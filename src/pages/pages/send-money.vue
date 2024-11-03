@@ -253,6 +253,8 @@ const reLoadOrderSearchName = async (fullName: string) => {
     });
 
     loadingTable.value = false;
+
+    
     data.value = res.data;
     length.value = data.value.transactions.length;
     totalUsers.value = res.data.count;
